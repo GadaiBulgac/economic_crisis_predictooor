@@ -44,7 +44,17 @@ print(economic_data) </pre>
 At the time of this writing there appears to be a cap on request size<br>
 The maximum we were able to gather was 55 indicators and 34 countries at a time<br>
 
+## Models 
+Tree sampling and neural net models have been used so far with limited effectiveness.
 
+### Neural Net
+Even though it seems like our neural net is improving and making better predictions,<br>
+![Training Model](./images/TrainingModel.png)
 
+it does not actually try to predict the occurence of a banking crisis, only the lack thereof. <br>
+![Training Model](./images/BankingCrisisConfusion.png)
+
+## Findings
+So far, we have not found a great way to predict a banking crisis. 
 
 
